@@ -1,7 +1,7 @@
 // 1. Import
 
 import Head from "next/head";
-import A from "../PropsComponents";
+import Apple from "../PropsComponents/Apple";
 
 //2. Fuction definition
 export default function Home() {
@@ -13,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <A name="Anil" msg="Oklabs"/>
+      <Apple name="Anil" msg="Oklabs" />
+
     </>
   );
 }
