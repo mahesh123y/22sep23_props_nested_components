@@ -1,7 +1,7 @@
 // 1. Import
 
 import Head from "next/head";
-import A from "../PropsComponents/a";
+import A from "../PropsComponents";
 
 //2. Fuction definition
 export default function Home() {
